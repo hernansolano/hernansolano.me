@@ -5,8 +5,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getProfile, type Locale } from "@/lib/data";
 
-// Set SITE_URL to the final canonical origin before deploying to production.
-export const siteUrl = new URL(process.env.SITE_URL || "https://hernansolano.com");
+export const siteUrl = new URL(process.env.SITE_URL || "https://hernansolano.me");
 export const isIndexable = process.env.SITE_INDEXABLE === "true" && process.env.VERCEL_ENV !== "preview";
 export const pagePaths = { home: "", about: "/about", projects: "/projects" } as const;
 type PageName = keyof typeof pagePaths;

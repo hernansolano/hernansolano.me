@@ -27,5 +27,5 @@ Abre [localhost:3000](http://localhost:3000). Las páginas están disponibles en
 
 | Variable | Descripción |
 | --- | --- |
-| `SITE_URL` | Dominio canónico; por defecto `https://hernansolano.com`. |
+| `SITE_URL` | Dominio canónico; por defecto `https://hernansolano.me`. |
 | `SITE_INDEXABLE` | `true` permite indexación en producción; desactivada por defecto y en previews de Vercel. |
