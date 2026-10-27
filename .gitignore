@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+*.key
+*.p12
+*.pfx
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local tooling and QA output
+/.local/
+/playwright-report/
+/test-results/
+
+# Private source documents: never put these under public/
+/private/
+.npmrc
+!.npmrc.example
+
+# LaTeX build products (published PDFs live under public/cv/)
+/resume/**/*.aux
+/resume/**/*.log
+/resume/**/*.out
+/resume/**/*.pdf
+/resume/**/*.synctex.gz
+
+# Local source material and notes
+/docs/
+/resume/

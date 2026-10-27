@@ -1,0 +1,34 @@
+{
+  "es": {
+    "frontend": [
+      "Python",
+      "SQL",
+      "TypeScript"
+    ],
+    "backend": [
+      "Fundamentos de redes",
+      "AWS SageMaker",
+      "Databricks"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Google Workspace"
+    ]
+  },
+  "en": {
+    "frontend": [
+      "Python",
+      "SQL",
+      "TypeScript"
+    ],
+    "backend": [
+      "Networking fundamentals",
+      "AWS SageMaker",
+      "Databricks"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Google Workspace"
+    ]
+  }
+}

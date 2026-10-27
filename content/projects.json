@@ -1,0 +1,124 @@
+{
+  "es": [
+    {
+      "imagePath": "",
+      "githubLink": "",
+      "liveLink": "",
+      "id": "utp-guide",
+      "title": "UTP-Guide",
+      "description": "Navegación en interiores del campus de la UTP con rutas diferenciadas para personas con movilidad reducida.",
+      "category": "Proyecto académico",
+      "year": "2026",
+      "status": "Proyecto académico",
+      "techStack": [
+        "BLE",
+        "RSSI",
+        "Filtro de Kalman"
+      ],
+      "challenge": "Orientarse dentro de los edificios del campus y considerar recorridos accesibles para personas con movilidad reducida.",
+      "approach": "Desarrollo de una aplicación móvil con balizas BLE. El posicionamiento utiliza trilateración basada en RSSI y un filtro de Kalman.",
+      "outcome": "Tras la calibración en campo, se obtuvo un error de posicionamiento aproximado de 1,6 m. El proyecto se presentó a la Jornada de Iniciación Científica 2026 (JIC/SENACYT)."
+    },
+    {
+      "imagePath": "",
+      "githubLink": "",
+      "liveLink": "",
+      "id": "copa-hackathon",
+      "title": "Hackathon Copa Airlines 2025",
+      "description": "Retos de análisis de datos e inteligencia artificial con datos de aviación comercial.",
+      "category": "Hackathon",
+      "year": "2025",
+      "status": "Participación en equipo",
+      "techStack": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "AWS SageMaker Canvas"
+      ],
+      "challenge": "Resolver retos de procesamiento y análisis de datos de aviación dentro del tiempo del hackathon.",
+      "approach": "Uso de SQL y PySpark para procesar datos, dashboards en Databricks y AWS SageMaker Canvas para análisis y visualización asistidos por IA.",
+      "outcome": "El equipo obtuvo el puesto 13 de 129 equipos, en una competencia con más de 500 participantes."
+    },
+    {
+      "imagePath": "",
+      "githubLink": "https://github.com/hernansolano/hernansolano.me",
+      "liveLink": "",
+      "id": "portfolio",
+      "title": "Portafolio personal",
+      "description": "Este sitio: proyectos, experiencia y CV en español e inglés.",
+      "category": "Desarrollo web",
+      "year": "2026",
+      "status": "En desarrollo",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-intl"
+      ],
+      "challenge": "Organizar mis proyectos y experiencia en un sitio que pueda mantener actualizado.",
+      "approach": "Contenido en archivos JSON, páginas en español e inglés, temas claro y oscuro y comprobaciones automáticas en GitHub.",
+      "outcome": "El código está en GitHub y los CV en español e inglés se pueden descargar desde el sitio."
+    }
+  ],
+  "en": [
+    {
+      "imagePath": "",
+      "githubLink": "",
+      "liveLink": "",
+      "id": "utp-guide",
+      "title": "UTP-Guide",
+      "description": "Indoor navigation for the UTP campus, with separate routes for people with reduced mobility.",
+      "category": "Academic project",
+      "year": "2026",
+      "status": "Academic project",
+      "techStack": [
+        "BLE",
+        "RSSI",
+        "Kalman filter"
+      ],
+      "challenge": "Help people find their way inside campus buildings while accounting for accessible routes.",
+      "approach": "Development of a mobile app using BLE beacons. Positioning combines RSSI-based trilateration with a Kalman filter.",
+      "outcome": "Field calibration produced an approximate positioning error of 1.6 m. The project was submitted to the 2026 Scientific Initiation Conference (JIC/SENACYT)."
+    },
+    {
+      "imagePath": "",
+      "githubLink": "",
+      "liveLink": "",
+      "id": "copa-hackathon",
+      "title": "Copa Airlines Hackathon 2025",
+      "description": "Data analysis and artificial intelligence challenges using commercial aviation data.",
+      "category": "Hackathon",
+      "year": "2025",
+      "status": "Team participation",
+      "techStack": [
+        "SQL",
+        "PySpark",
+        "Databricks",
+        "AWS SageMaker Canvas"
+      ],
+      "challenge": "Solve aviation data processing and analysis challenges within the hackathon time limit.",
+      "approach": "Used SQL and PySpark to process data, dashboards in Databricks, and AWS SageMaker Canvas for AI-assisted analysis and visualization.",
+      "outcome": "The team placed 13th out of 129 teams in a competition with more than 500 participants."
+    },
+    {
+      "imagePath": "",
+      "githubLink": "https://github.com/hernansolano/hernansolano.me",
+      "liveLink": "",
+      "id": "portfolio",
+      "title": "Personal portfolio",
+      "description": "This website: projects, experience, and CV in Spanish and English.",
+      "category": "Web development",
+      "year": "2026",
+      "status": "In development",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-intl"
+      ],
+      "challenge": "Organize my projects and experience on a website I can keep up to date.",
+      "approach": "JSON content files, Spanish and English pages, light and dark themes, and automated checks on GitHub.",
+      "outcome": "The code is on GitHub, and both the English and Spanish CVs can be downloaded from the site."
+    }
+  ]
+}

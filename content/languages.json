@@ -1,0 +1,22 @@
+{
+  "es": [
+    {
+      "language": "Español",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "level": ""
+    }
+  ],
+  "en": [
+    {
+      "language": "Spanish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": ""
+    }
+  ]
+}

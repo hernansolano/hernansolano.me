@@ -1,0 +1,18 @@
+{
+  "es": [
+    {
+      "institution": "Universidad Tecnológica de Panamá",
+      "degree": "Licenciatura en Ingeniería de Software",
+      "duration": "2023 – actualidad",
+      "details": "Formación en programación orientada a objetos, algoritmos, bases de datos, sistemas distribuidos y desarrollo seguro."
+    }
+  ],
+  "en": [
+    {
+      "institution": "Universidad Tecnológica de Panamá",
+      "degree": "B.Sc. in Software Engineering",
+      "duration": "2023 – present",
+      "details": "Coursework in object-oriented programming, algorithms, databases, distributed systems, and secure software development."
+    }
+  ]
+}

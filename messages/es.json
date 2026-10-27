@@ -1,0 +1,76 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "homeLabel": "Hernán Solano, inicio",
+    "mainNavigation": "Navegación principal",
+    "mobileNavigation": "Navegación móvil",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "Accessibility": {
+    "skipToContent": "Saltar al contenido"
+  },
+  "Metadata": {
+    "homeTitle": "Hernán Solano · Ingeniería de Software",
+    "homeDescription": "Estudiante de Ingeniería de Software en la UTP, Panamá. Experiencia en la ACP y proyectos de navegación interior, análisis de datos y desarrollo web.",
+    "aboutTitle": "Sobre mí",
+    "aboutDescription": "Formación, experiencia y conocimientos de Hernán Solano, estudiante de Ingeniería de Software en la Universidad Tecnológica de Panamá.",
+    "projectsTitle": "Proyectos",
+    "projectsDescription": "Proyectos de Hernán Solano: UTP-Guide, análisis de datos y desarrollo de software. Contexto, implementación y resultados."
+  },
+  "Theme": {
+    "toggle": "Cambiar entre tema claro y oscuro"
+  },
+  "Locale": {
+    "switch": "Switch to English",
+    "en": "English",
+    "es": "Español"
+  },
+  "Footer": {
+    "note": "Panamá",
+    "top": "Volver arriba"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "description": "Para oportunidades de práctica, trabajo o preguntas sobre mis proyectos."
+  },
+  "Home": {
+    "location": "Panamá",
+    "viewWork": "Ver proyectos",
+    "downloadCV": "Descargar CV",
+    "contact": "Contacto",
+    "workTitle": "Proyectos",
+    "allProjects": "Ver todos",
+    "viewProject": "Ver {title}",
+    "exploreProject": "Detalles del proyecto",
+    "experienceTitle": "Experiencia reciente",
+    "about": "Ver trayectoria"
+  },
+  "Preview": {
+    "project": "Proyecto"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "description": "Trabajo académico, proyectos personales y participación en hackathons.",
+    "github": "Ver código",
+    "live": "Visitar sitio",
+    "technologies": "Tecnologías del proyecto",
+    "challenge": "Contexto",
+    "approach": "Implementación",
+    "outcome": "Resultados"
+  },
+  "About": {
+    "title": "Sobre mí",
+    "downloadCV": "Descargar CV en español",
+    "experience": "Experiencia",
+    "education": "Formación",
+    "skills": "Conocimientos técnicos",
+    "frontend": "Programación",
+    "backend": "Datos y redes",
+    "tools": "Herramientas",
+    "languages": "Idiomas"
+  }
+}

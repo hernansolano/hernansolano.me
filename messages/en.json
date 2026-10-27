@@ -1,0 +1,76 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "homeLabel": "Hernán Solano, home",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Accessibility": {
+    "skipToContent": "Skip to content"
+  },
+  "Metadata": {
+    "homeTitle": "Hernán Solano · Software Engineering",
+    "homeDescription": "Software Engineering student at UTP, Panama. Experience at the Panama Canal Authority and projects in indoor navigation, data analysis, and web development.",
+    "aboutTitle": "About",
+    "aboutDescription": "Education, experience, and technical skills of Hernán Solano, a Software Engineering student at the Technological University of Panama.",
+    "projectsTitle": "Projects",
+    "projectsDescription": "Hernán Solano's projects: UTP-Guide, data analysis, and software development. Context, implementation, and results."
+  },
+  "Theme": {
+    "toggle": "Switch between light and dark theme"
+  },
+  "Locale": {
+    "switch": "Cambiar a español",
+    "en": "English",
+    "es": "Español"
+  },
+  "Footer": {
+    "note": "Panama",
+    "top": "Back to top"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "For internship or job opportunities, or questions about my projects."
+  },
+  "Home": {
+    "location": "Panama",
+    "viewWork": "View projects",
+    "downloadCV": "Download CV",
+    "contact": "Contact",
+    "workTitle": "Projects",
+    "allProjects": "View all",
+    "viewProject": "View {title}",
+    "exploreProject": "Project details",
+    "experienceTitle": "Recent experience",
+    "about": "View background"
+  },
+  "Preview": {
+    "project": "Project"
+  },
+  "Projects": {
+    "title": "Projects",
+    "description": "Academic work, personal projects, and hackathon participation.",
+    "github": "View code",
+    "live": "Visit website",
+    "technologies": "Project technologies",
+    "challenge": "Context",
+    "approach": "Implementation",
+    "outcome": "Results"
+  },
+  "About": {
+    "title": "About me",
+    "downloadCV": "Download CV in English",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Technical skills",
+    "frontend": "Programming",
+    "backend": "Data and networking",
+    "tools": "Tools",
+    "languages": "Languages"
+  }
+}

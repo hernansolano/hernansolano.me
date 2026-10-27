@@ -1,0 +1,42 @@
+{
+  "es": [
+    {
+      "company": "Autoridad del Canal de Panamá",
+      "role": "Practicante · División de Interconectividad",
+      "duration": "18 de mayo – 11 de agosto de 2026",
+      "responsibilities": [
+        "Colaboré en el desarrollo de una aplicación interna para gestionar infraestructura de fibra óptica.",
+        "Contribuí a funciones CRUD, sincronización de datos en tiempo real y dashboards para visualizar información operativa."
+      ]
+    },
+    {
+      "company": "Autoridad del Canal de Panamá",
+      "role": "Asistente de oficina · Práctica profesional",
+      "duration": "Octubre – noviembre de 2022",
+      "responsibilities": [
+        "Apoyé la organización de información y tareas administrativas relacionadas con actividades de capacitación.",
+        "Utilicé Excel para manejar y analizar datos y desarrollé un proyecto de mejora de la gestión interna de información."
+      ]
+    }
+  ],
+  "en": [
+    {
+      "company": "Panama Canal Authority",
+      "role": "Intern · Interconnectivity Division",
+      "duration": "May 18 – August 11, 2026",
+      "responsibilities": [
+        "Helped develop an internal application for managing fiber-optic infrastructure.",
+        "Contributed to CRUD features, real-time data synchronization, and dashboards for operational information."
+      ]
+    },
+    {
+      "company": "Panama Canal Authority",
+      "role": "Office Assistant · Professional Internship",
+      "duration": "October – November 2022",
+      "responsibilities": [
+        "Supported information organization and administrative tasks for training activities.",
+        "Used Excel to manage and analyze data and developed a project to improve internal information workflows."
+      ]
+    }
+  ]
+}
