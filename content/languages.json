@@ -6,7 +6,11 @@
     },
     {
       "language": "Inglés",
-      "level": ""
+      "level": "Avanzado"
+    },
+    {
+      "language": "Sueco",
+      "level": "En aprendizaje"
     }
   ],
   "en": [
@@ -16,7 +20,11 @@
     },
     {
       "language": "English",
-      "level": ""
+      "level": "Advanced"
+    },
+    {
+      "language": "Swedish",
+      "level": "Learning"
     }
   ]
 }

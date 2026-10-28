@@ -2,8 +2,8 @@
   "es": {
     "name": "Hernán Solano",
     "title": "Estudiante de Ingeniería de Software",
-    "description": "Estudio Ingeniería de Software en la UTP. En mi práctica en la ACP colaboré en una aplicación para gestionar infraestructura de fibra óptica. También he trabajado en navegación interior y análisis de datos.",
-    "about": "Soy estudiante de Ingeniería de Software en la Universidad Tecnológica de Panamá. En 2026 hice una práctica en la Autoridad del Canal de Panamá, donde colaboré en una aplicación interna para gestionar infraestructura de fibra óptica. También he trabajado en UTP-Guide, un proyecto de navegación en interiores, y participé en el Hackathon Copa Airlines 2025. Aquí reúno esos proyectos y mi experiencia.",
+    "description": "Estudio Ingeniería de Software en la UTP. He colaborado en una aplicación interna para la ACP y desarrollado proyectos de navegación interior, análisis de datos y web.",
+    "about": "Me interesa crear software que resuelva problemas concretos. Estudio Ingeniería de Software en la Universidad Tecnológica de Panamá y, durante mi práctica en la ACP, colaboré en una aplicación para gestionar infraestructura de fibra óptica. En UTP-Guide trabajo en navegación interior accesible; también participé en el Hackathon Copa Airlines 2025. En este sitio muestro el proceso y los resultados de esos proyectos.",
     "email": "hernansolano@ieee.org",
     "social": {
       "github": "https://github.com/hernansolano",
@@ -14,8 +14,8 @@
   "en": {
     "name": "Hernán Solano",
     "title": "Software Engineering student",
-    "description": "I study Software Engineering at UTP. During my internship at the Panama Canal Authority, I helped build an application for managing fiber-optic infrastructure. I have also worked on indoor navigation and data analysis.",
-    "about": "I am a Software Engineering student at Universidad Tecnológica de Panamá. In 2026, I completed an internship at the Panama Canal Authority, where I helped develop an internal application for managing fiber-optic infrastructure. I have also worked on UTP-Guide, an indoor navigation project, and took part in the Copa Airlines Hackathon 2025. This site brings together those projects and my experience.",
+    "description": "I study Software Engineering at UTP. I have contributed to an internal application for the Panama Canal Authority and worked on indoor navigation, data analysis, and web projects.",
+    "about": "I enjoy building software that solves practical problems. I study Software Engineering at Universidad Tecnológica de Panamá and, during my internship at the Panama Canal Authority, I contributed to an application for managing fiber-optic infrastructure. I work on accessible indoor navigation in UTP-Guide and participated in the Copa Airlines Hackathon 2025. This site shows the process and results behind those projects.",
     "email": "hernansolano@ieee.org",
     "social": {
       "github": "https://github.com/hernansolano",

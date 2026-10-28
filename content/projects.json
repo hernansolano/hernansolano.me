@@ -17,7 +17,7 @@
       ],
       "challenge": "Orientarse dentro de los edificios del campus y considerar recorridos accesibles para personas con movilidad reducida.",
       "approach": "Desarrollo de una aplicación móvil con balizas BLE. El posicionamiento utiliza trilateración basada en RSSI y un filtro de Kalman.",
-      "outcome": "Tras la calibración en campo, se obtuvo un error de posicionamiento aproximado de 1,6 m. El proyecto se presentó a la Jornada de Iniciación Científica 2026 (JIC/SENACYT)."
+      "outcome": "Tras la calibración en campo, se obtuvo un error de posicionamiento aproximado de 1,6 m. El proyecto se postuló a la Jornada de Iniciación Científica 2026 (JIC/SENACYT)."
     },
     {
       "imagePath": "",
@@ -57,7 +57,19 @@
       ],
       "challenge": "Organizar mis proyectos y experiencia en un sitio que pueda mantener actualizado.",
       "approach": "Contenido en archivos JSON, páginas en español e inglés, temas claro y oscuro y comprobaciones automáticas en GitHub.",
-      "outcome": "El código está en GitHub y los CV en español e inglés se pueden descargar desde el sitio."
+      "outcome": "El código está en GitHub y los CV en español e inglés se pueden descargar desde el sitio.",
+      "screenshots": [
+        {
+          "src": "/projects/portfolio/home-light.webp",
+          "alt": "Portada del portafolio de Hernán Solano en tema claro",
+          "caption": "Inicio · Tema claro"
+        },
+        {
+          "src": "/projects/portfolio/home-dark.webp",
+          "alt": "Portada del portafolio de Hernán Solano en tema oscuro",
+          "caption": "Inicio · Tema oscuro"
+        }
+      ]
     }
   ],
   "en": [
@@ -118,7 +130,19 @@
       ],
       "challenge": "Organize my projects and experience on a website I can keep up to date.",
       "approach": "JSON content files, Spanish and English pages, light and dark themes, and automated checks on GitHub.",
-      "outcome": "The code is on GitHub, and both the English and Spanish CVs can be downloaded from the site."
+      "outcome": "The code is on GitHub, and both the English and Spanish CVs can be downloaded from the site.",
+      "screenshots": [
+        {
+          "src": "/projects/portfolio/home-light.webp",
+          "alt": "Hernán Solano’s portfolio homepage in light theme",
+          "caption": "Home · Light theme"
+        },
+        {
+          "src": "/projects/portfolio/home-dark.webp",
+          "alt": "Hernán Solano’s portfolio homepage in dark theme",
+          "caption": "Home · Dark theme"
+        }
+      ]
     }
   ]
 }

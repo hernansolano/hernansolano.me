@@ -3,12 +3,29 @@ import { hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { getProfile, type Locale } from "@/lib/data";
+import { getProfile, getProjects, type Locale } from "@/lib/data";
 
 export const siteUrl = new URL(process.env.SITE_URL || "https://hernansolano.me");
 export const isIndexable = process.env.SITE_INDEXABLE === "true" && process.env.VERCEL_ENV !== "preview";
-export const pagePaths = { home: "", about: "/about", projects: "/projects" } as const;
+export const pagePaths = { home: "", about: "/about", projects: "/projects", contact: "/contact" } as const;
 type PageName = keyof typeof pagePaths;
+
+export async function getProjectMetadata(locale: string, slug: string): Promise<Metadata> {
+  if (!hasLocale(routing.locales, locale)) notFound();
+  const project = getProjects(locale).find((item) => item.id === slug);
+  if (!project) notFound();
+  const base = await getPageMetadata(locale, "projects");
+  const path = `/projects/${project.id}`;
+  const title = `${project.title} | ${getProfile(locale).name}`;
+  return {
+    ...base,
+    title: { absolute: title },
+    description: project.description,
+    alternates: { canonical: localizedUrl(locale, path), languages: languageAlternates(path) },
+    openGraph: { ...base.openGraph, title, description: project.description, url: localizedUrl(locale, path) },
+    twitter: { ...base.twitter, title, description: project.description },
+  };
+}
 
 export function localizedUrl(locale: Locale, path = ""): string {
   return new URL(`/${locale}${path}`, siteUrl).toString();

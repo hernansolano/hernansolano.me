@@ -19,7 +19,9 @@
     "aboutTitle": "About",
     "aboutDescription": "Education, experience, and technical skills of Hernán Solano, a Software Engineering student at the Technological University of Panama.",
     "projectsTitle": "Projects",
-    "projectsDescription": "Hernán Solano's projects: UTP-Guide, data analysis, and software development. Context, implementation, and results."
+    "projectsDescription": "Hernán Solano's projects: UTP-Guide, data analysis, and software development. Context, implementation, and results.",
+    "contactTitle": "Contact",
+    "contactDescription": "Hernán Solano’s email, LinkedIn and GitHub for conversations about opportunities, collaboration and projects."
   },
   "Theme": {
     "toggle": "Switch between light and dark theme"
@@ -35,42 +37,55 @@
   },
   "Contact": {
     "title": "Contact",
-    "description": "For internship or job opportunities, or questions about my projects."
+    "description": "If you have an opportunity, want to collaborate, or have a question about a project, send me a note.",
+    "previewTitle": "Let’s talk.",
+    "action": "Contact details",
+    "emailLabel": "Email",
+    "emailDescription": "The most direct way to reach me.",
+    "linkedinDescription": "My professional profile and background.",
+    "githubDescription": "Repositories and project source code.",
+    "location": "Panama · UTC−5",
+    "professionalLabel": "Professional profile",
+    "codeLabel": "Code"
   },
   "Home": {
     "location": "Panama",
     "viewWork": "View projects",
     "downloadCV": "Download CV",
     "contact": "Contact",
-    "workTitle": "Projects",
+    "workTitle": "Selected projects",
     "allProjects": "View all",
     "viewProject": "View {title}",
     "exploreProject": "Project details",
     "experienceTitle": "Recent experience",
     "about": "View background"
   },
-  "Preview": {
-    "project": "Project"
-  },
   "Projects": {
     "title": "Projects",
     "description": "Academic work, personal projects, and hackathon participation.",
     "github": "View code",
-    "live": "Visit website",
+    "live": "Open demo",
     "technologies": "Project technologies",
     "challenge": "Context",
     "approach": "Implementation",
-    "outcome": "Results"
+    "outcome": "Results",
+    "details": "Explore project",
+    "back": "All projects",
+    "next": "Next project",
+    "gallery": "Project screenshots",
+    "chooseScreenshot": "Choose screenshot",
+    "screenshot": "Screenshot {number}: {description}",
+    "openScreenshot": "Enlarge screenshot"
   },
   "About": {
     "title": "About me",
     "downloadCV": "Download CV in English",
     "experience": "Experience",
     "education": "Education",
-    "skills": "Technical skills",
-    "frontend": "Programming",
-    "backend": "Data and networking",
-    "tools": "Tools",
+    "skills": "Technologies and tools",
+    "frontend": "Software development",
+    "backend": "Data and analysis",
+    "tools": "Networking and security",
     "languages": "Languages"
   }
 }

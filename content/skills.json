@@ -3,32 +3,46 @@
     "frontend": [
       "Python",
       "SQL",
-      "TypeScript"
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Git y GitHub"
     ],
     "backend": [
-      "Fundamentos de redes",
-      "AWS SageMaker",
-      "Databricks"
+      "PySpark",
+      "Databricks",
+      "AWS SageMaker Canvas",
+      "Microsoft Excel"
     ],
     "tools": [
-      "Microsoft Excel",
-      "Google Workspace"
+      "Fundamentos de redes",
+      "BLE y RSSI",
+      "Fundamentos de ciberseguridad",
+      "Linux básico"
     ]
   },
   "en": {
     "frontend": [
       "Python",
       "SQL",
-      "TypeScript"
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Git and GitHub"
     ],
     "backend": [
-      "Networking fundamentals",
-      "AWS SageMaker",
-      "Databricks"
+      "PySpark",
+      "Databricks",
+      "AWS SageMaker Canvas",
+      "Microsoft Excel"
     ],
     "tools": [
-      "Microsoft Excel",
-      "Google Workspace"
+      "Networking fundamentals",
+      "BLE and RSSI",
+      "Cybersecurity fundamentals",
+      "Basic Linux"
     ]
   }
 }

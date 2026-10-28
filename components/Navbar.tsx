@@ -10,7 +10,7 @@ export function Navbar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
-  const links = [{ href: "/", label: t("home") }, { href: "/projects", label: t("projects") }, { href: "/about", label: t("about") }];
+  const links = [{ href: "/", label: t("home") }, { href: "/projects", label: t("projects") }, { href: "/about", label: t("about") }, { href: "/contact", label: t("contact") }];
   return (
     <header className="site-header" onKeyDown={(event) => {
       if (event.key === "Escape" && isOpen) { setIsOpen(false); menuButton.current?.focus(); }
@@ -27,10 +27,9 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              aria-current={pathname === link.href ? "page" : undefined}
+              aria-current={(pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href + "/"))) ? "page" : undefined}
             >{link.label}</Link>
           ))}
-          <Link href="/#contact" className="nav-contact">{t("contact")} <span aria-hidden="true">↗</span></Link>
         </nav>
         <div className="nav-controls">
           <LanguageSwitcher />
@@ -65,11 +64,10 @@ export function Navbar() {
           <Link
             key={link.href}
             href={link.href}
-            aria-current={pathname === link.href ? "page" : undefined}
+            aria-current={(pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href + "/"))) ? "page" : undefined}
             onClick={() => setIsOpen(false)}
           >{link.label}</Link>
         ))}
-        <Link href="/#contact" onClick={() => setIsOpen(false)}>{t("contact")} ↗</Link>
       </nav>
     </header>
   );

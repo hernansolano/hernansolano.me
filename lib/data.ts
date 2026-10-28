@@ -34,6 +34,13 @@ export interface Project {
   approach?: string;
   outcome?: string;
   status?: string;
+  screenshots?: ProjectScreenshot[];
+}
+
+export interface ProjectScreenshot {
+  src: string;
+  alt: string;
+  caption?: string;
 }
 
 export interface Experience {

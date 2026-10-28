@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getExperience, getProfile, getProjects } from "@/lib/data";
 import { getPageMetadata } from "@/lib/seo";
 import { Link, routing } from "@/i18n/routing";
-import { ProjectPreview } from "@/components/ProjectPreview";
+import { ProjectCard } from "@/components/ProjectCard";
 import { ContactSection } from "@/components/ContactSection";
 
 export async function generateMetadata({
@@ -45,7 +45,7 @@ export default async function Home({
               {t("downloadCV")} <span aria-hidden="true">↓</span>
             </a>
           )}
-          <a className="text-link" href="#contact">{t("contact")}</a>
+          <Link className="text-link" href="/contact">{t("contact")}</Link>
         </div>
       </section>
 
@@ -63,24 +63,7 @@ export default async function Home({
           </div>
           <div className="selected-projects">
             {projects.map((project) => (
-              <article className="selected-project" key={project.id}>
-                <Link
-                  href={"/projects#" + project.id}
-                  className="preview-link"
-                  aria-label={t("viewProject", { title: project.title })}
-                >
-                  <ProjectPreview project={project} locale={locale} />
-                </Link>
-                <div className="selected-project-info">
-                  <h3>
-                    <Link href={"/projects#" + project.id}>{project.title}</Link>
-                  </h3>
-                  <p className="muted">{project.description}</p>
-                  <Link className="text-link" href={"/projects#" + project.id}>
-                    {t("exploreProject")} <span aria-hidden="true">↗</span>
-                  </Link>
-                </div>
-              </article>
+              <ProjectCard project={project} locale={locale} key={project.id} />
             ))}
           </div>
         </section>
@@ -101,11 +84,7 @@ export default async function Home({
             <p className="experience-date">{experience.duration}</p>
             <h3>{experience.company}</h3>
             <p className="experience-role">{experience.role}</p>
-            <ul>
-              {experience.responsibilities.map((responsibility) => (
-                <li key={responsibility}>{responsibility}</li>
-              ))}
-            </ul>
+
           </article>
         </section>
       )}

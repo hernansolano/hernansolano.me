@@ -19,7 +19,9 @@
     "aboutTitle": "Sobre mí",
     "aboutDescription": "Formación, experiencia y conocimientos de Hernán Solano, estudiante de Ingeniería de Software en la Universidad Tecnológica de Panamá.",
     "projectsTitle": "Proyectos",
-    "projectsDescription": "Proyectos de Hernán Solano: UTP-Guide, análisis de datos y desarrollo de software. Contexto, implementación y resultados."
+    "projectsDescription": "Proyectos de Hernán Solano: UTP-Guide, análisis de datos y desarrollo de software. Contexto, implementación y resultados.",
+    "contactTitle": "Contacto",
+    "contactDescription": "Correo, LinkedIn y GitHub de Hernán Solano para conversar sobre oportunidades, colaboraciones y proyectos."
   },
   "Theme": {
     "toggle": "Cambiar entre tema claro y oscuro"
@@ -35,42 +37,55 @@
   },
   "Contact": {
     "title": "Contacto",
-    "description": "Para oportunidades de práctica, trabajo o preguntas sobre mis proyectos."
+    "description": "Si quieres conversar sobre una oportunidad, colaborar o preguntar por un proyecto, escríbeme.",
+    "previewTitle": "¿Hablamos?",
+    "action": "Ver contacto",
+    "emailLabel": "Correo electrónico",
+    "emailDescription": "La forma más directa de escribirme.",
+    "linkedinDescription": "Mi perfil y trayectoria profesional.",
+    "githubDescription": "Repositorios y código de mis proyectos.",
+    "location": "Panamá · UTC−5",
+    "professionalLabel": "Perfil profesional",
+    "codeLabel": "Código"
   },
   "Home": {
     "location": "Panamá",
     "viewWork": "Ver proyectos",
     "downloadCV": "Descargar CV",
     "contact": "Contacto",
-    "workTitle": "Proyectos",
+    "workTitle": "Proyectos seleccionados",
     "allProjects": "Ver todos",
     "viewProject": "Ver {title}",
     "exploreProject": "Detalles del proyecto",
     "experienceTitle": "Experiencia reciente",
     "about": "Ver trayectoria"
   },
-  "Preview": {
-    "project": "Proyecto"
-  },
   "Projects": {
     "title": "Proyectos",
     "description": "Trabajo académico, proyectos personales y participación en hackathons.",
     "github": "Ver código",
-    "live": "Visitar sitio",
+    "live": "Abrir demo",
     "technologies": "Tecnologías del proyecto",
     "challenge": "Contexto",
     "approach": "Implementación",
-    "outcome": "Resultados"
+    "outcome": "Resultados",
+    "details": "Explorar proyecto",
+    "back": "Todos los proyectos",
+    "next": "Siguiente proyecto",
+    "gallery": "Capturas del proyecto",
+    "chooseScreenshot": "Elegir captura",
+    "screenshot": "Captura {number}: {description}",
+    "openScreenshot": "Ampliar captura"
   },
   "About": {
     "title": "Sobre mí",
     "downloadCV": "Descargar CV en español",
     "experience": "Experiencia",
     "education": "Formación",
-    "skills": "Conocimientos técnicos",
-    "frontend": "Programación",
-    "backend": "Datos y redes",
-    "tools": "Herramientas",
+    "skills": "Tecnologías y herramientas",
+    "frontend": "Desarrollo de software",
+    "backend": "Datos y análisis",
+    "tools": "Redes y seguridad",
     "languages": "Idiomas"
   }
 }
