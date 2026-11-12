@@ -49,10 +49,13 @@
     "codeLabel": "Code"
   },
   "Home": {
+    "headline": "Software development",
+    "headlineSecondary": "and data analysis.",
+    "intro": "I study Software Engineering at UTP. I work on web development, indoor navigation, and data analysis projects.",
     "location": "Panama",
     "viewWork": "View projects",
     "downloadCV": "Download CV",
-    "contact": "Contact",
+    "contact": "Let’s talk",
     "workTitle": "Selected projects",
     "allProjects": "View all",
     "viewProject": "View {title}",

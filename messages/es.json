@@ -49,10 +49,13 @@
     "codeLabel": "Código"
   },
   "Home": {
+    "headline": "Desarrollo de software",
+    "headlineSecondary": "y análisis de datos.",
+    "intro": "Estudio Ingeniería de Software en la UTP. Desarrollo proyectos web, de navegación interior y de análisis de datos.",
     "location": "Panamá",
     "viewWork": "Ver proyectos",
     "downloadCV": "Descargar CV",
-    "contact": "Contacto",
+    "contact": "Hablemos",
     "workTitle": "Proyectos seleccionados",
     "allProjects": "Ver todos",
     "viewProject": "Ver {title}",
