@@ -9,6 +9,7 @@
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "check:content": "node scripts/check-content.mjs",
+    "audit:prod": "node scripts/audit-production.mjs",
     "check": "npm run check:content && npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
